@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1.7em;
+	/*background-image: linear-gradient(to right, cadetblue, greenyellow);*/
+}
+
+/* ALL DIRECTORIES */
+
+.header {
+	background-image: url(images/header-background.jpg);
+	background-color: rgba(0, 0, 0, .6);
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+.nav {
+	text-align: center;
+	border-bottom: .03em solid rgba(255, 255, 255, .7);
+}
+
+.nav ul {
+	margin: 0;
+}
+
+.nav li {
+	display: inline;
+	padding: 0 5%;
+}
+
+.nav a {
+	display: inline-block;
+	padding: .5em 1.2em .5em 1.2em;
+	color: white;
+	text-decoration: none;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.nav a:hover {
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.header-text {
+	padding: 1.6em 0 1.6em 0;
+}
+
+.header-name {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
+}
+
+.header-subtext {
+	margin: 0;
+	padding-top: .12em;
+	color: white;
+	text-align: center;
+	font-size: .8em;
+}
+
+/* INDEX.HTML */
+
+
+
+/* INFO.HTML */
+
+
+
+/* ABOUT.HTML */
+
+
+
+/* FONTS */
+
+.medium500 {
+	font-weight: 500;
+}
+
+.light300 {
+	font-weight: 300;
+}
+
+.bold700 {
+	font-weight: 700;
+}	
