@@ -117,6 +117,16 @@ body {
 	color: black;
 }
 
+.container {
+	text-align: center;
+	margin: 0;
+}
+
+iframe {
+	margin: 0 auto;
+	padding: 0;
+}
+
 @media (max-width: 650px){
 	.nav li {
 		padding: 0 0.3vw;
@@ -151,7 +161,7 @@ body {
 	}
 
 	.section-text {
-		font-size: 5vw;
+		font-size: 4vw;
 	}
 }
 
